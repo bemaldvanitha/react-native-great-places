@@ -1,14 +1,18 @@
 {
   "expo": {
     "name": "grateplace",
-    "slug": "grateplace",
+    "slug": "grate_place_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tower.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/place.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.bemal.nplaces",
+      "versionCode": 1
     },
     "updates": {
       "fallbackToCacheTimeout": 0
